@@ -8,9 +8,9 @@ Hafta-3 : Temel Kavramlar: Değişkenler, Sabitler, İfade ve Operatörler, Dizi
 
 Hafta-4 : Akış Kontrol Yapıları
 
-Hafta-5 : Bu hafta planlanmış bir konu bulunmamaktadır.
+Hafta-5 : Ara Sınav Soru Çözümü - 1.
 
-Hafta-6 : Bu hafta planlanmış bir konu bulunmamaktadır.
+Hafta-6 : Ara Sınav Soru Çözümü - 2.
 
 Hafta-7 : PHP’de Yerleşik (Built-In) Fonksiyonlar
 
@@ -20,6 +20,6 @@ Hafta-9 : Veri Giriş İşlemleri
 
 Hafta-10 : Veritabanı İşlemleri
 
-Hafta-11 : Bu hafta planlanmış bir konu bulunmamaktadır.
+Hafta-11 : Dönem Sonu Sınavı Soru Çözümü - 1.
 
-Hafta-12 : Bu hafta planlanmış bir konu bulunmamaktadır.
+Hafta-12 : Dönem Sonu Sınavı Soru Çözümü - 2.
