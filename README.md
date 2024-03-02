@@ -1,4 +1,4 @@
-## Ders Planı
+# Ders Planı
 
 ## **Hafta-1** : Web 2.0 Teknolojisinin Doğuşu
 
