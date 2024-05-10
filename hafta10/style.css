@@ -1,0 +1,96 @@
+/* Genel stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 20%;
+    margin: 0 auto;
+    padding: 200px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+
+/* Form stilleri */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Formun sayfa içinde ortalanması */
+    max-width: 400px; /* Formun maksimum genişliği */
+    text-align: center; /* Form içeriğinin ortalanması */
+}
+
+/* Giriş formu stilleri */
+.login-form {
+    margin-top: 20px; /* Üye girişi formunun üst boşluğu */
+}
+
+/* Etiket (label) stilleri */
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* Etiketin metni sola hizalanır */
+}
+
+/* Üye ol metni stil */
+.signup-text {
+    margin-top: 20px; /* Üye ol metni ile form arasındaki boşluk */
+    text-align: center; /* Üye ol metninin ortalanması */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Link stilleri */
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mesaj kutusu stilleri */
+.message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
