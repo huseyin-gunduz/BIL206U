@@ -1,43 +1,31 @@
 <?php
-// while döngüsü - koşul(switch)
+// Dizi tanımlanıyor
+$numbers = array(0, 1, 2, 3, 4, 5, 7, 9);
 
-// Bir dizi oluşturalım
-$numbers = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+// For döngüsü ile dizi üzerinde dön
+for ($i = 0; $i < count($numbers); $i++) {
+    $number = $numbers[$i];
 
-// Toplamı saklamak için bir değişken oluşturalım
-$total = 0;
-
-// Dizideki her bir sayıyı toplama ekleyerek switch ve while döngüsü kullanma
-$index = 0; // İndeks değerini başlatma
-$length = count($numbers); // Dizinin uzunluğunu alıyoruz
-
-while ($index < $length) {
-    switch ($numbers[$index]) {
+    // switch-case ile sayının kategorisini yaz
+    switch ($number) {
+        case 0:
+            echo "[$i] $number → Sıfır\n";
+            break;
+        case 1:
+            break;
         case 2:
+            echo "[$i] $number → Küçük sayı\n";
+            break;
+        case 3:
             break;
         case 4:
             break;
-        case 6:
-            break;
-        case 8:
-        case 10:
-            $total += $numbers[$index];
-
-            echo "index : " . $index . " numbers : " . $numbers[$index] . " toplam: " . $total . "\n";
-
+        case 5:
+            echo "[$i] $number → Orta sayı\n";
             break;
         default:
-            $index++;
-            continue 2; // 2 değeri, iki kat üstündeki döngüyü etkiler
+            echo "[$i] $number → Bilinmiyor\n";
+            break;
     }
-
-    // Eğer toplam 15'e ulaşırsa, döngüyü durdur
-    if ($total >= 15) {
-        break;
-    }
-
-    $index++;
 }
-
-echo "Son toplam: " . $total;
 ?>
